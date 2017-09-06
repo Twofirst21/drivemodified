@@ -40,6 +40,8 @@
     <% else %>
       <!-- Login link (when logged out) -->
       <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-wagon-item navbar-wagon-link" %>
+          <%= link_to "Create Listing",omniauth_authorize_path(:user, :facebook), class: "navbar-wagon-item navbar-wagon-link create-a-listing" %>
+
     <% end %>
   </div>
 
