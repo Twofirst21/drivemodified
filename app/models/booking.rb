@@ -1,7 +1,4 @@
 class Booking < ApplicationRecord
-	def create 
-	end 
-
-	def show 
-	end 
+belongs_to :user
+belongs_to :instrument
 end

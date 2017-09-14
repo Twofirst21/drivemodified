@@ -1,0 +1,19 @@
+
+development:
+  cloud_name: dvonhuzwn
+  api_key: '979652347826314'
+  api_secret: _dadG36CU6ebBMJTchGkZc-GLhQ
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dvonhuzwn
+  api_key: '979652347826314'
+  api_secret: _dadG36CU6ebBMJTchGkZc-GLhQ
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dvonhuzwn
+  api_key: '979652347826314'
+  api_secret: _dadG36CU6ebBMJTchGkZc-GLhQ
+  enhance_image_tag: true
+  static_image_support: false
